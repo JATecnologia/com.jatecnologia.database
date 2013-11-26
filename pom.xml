@@ -6,14 +6,8 @@
     <packaging>pom</packaging>
     <properties>
         <project.build.sourceEncoding>ISO-8859-1</project.build.sourceEncoding>
-        <project.reporting.outputEncoding>ISO-8859-1</project.reporting.outputEncoding> 
-        
-        <version.hibernate>4.2.7.Final</version.hibernate>
-	    <version.javaee>6.0</version.javaee>
-	    <version.primefaces>4.0</version.primefaces>
-	    <version.commons-lang>2.5</version.commons-lang>
-	    <version.theme>1.0.8</version.theme>      
-	    <version.jat-commons>1.0.0</version.jat-commons> 
+        <project.reporting.outputEncoding>ISO-8859-1</project.reporting.outputEncoding>        
+        <version.mongodb>2.11.3</version.mongodb> 
     </properties>
     <scm>
         
@@ -24,12 +18,7 @@
         <module>jat-database-mongodb</module>
     </modules>
     <dependencyManagement>    
-        <dependencies>        	
-		    <dependency>
-                <groupId>com.jatecnologia.commons</groupId>
-                <artifactId>jat-commons-core</artifactId>
-                <version>${version.jat-commons}</version>
-            </dependency>
+        <dependencies>
             <dependency>
                 <groupId>com.jatecnologia.database</groupId>
                 <artifactId>jat-database-core</artifactId>
@@ -40,6 +29,12 @@
                 <artifactId>jat-database-mongodb</artifactId>
                 <version>${project.version}</version>
             </dependency>
+            <dependency>
+				<groupId>org.mongodb</groupId>
+				<artifactId>mongo-java-driver</artifactId>
+				<version>${version.mongodb}</version>
+			</dependency>
+            
             
         </dependencies>
     </dependencyManagement>
