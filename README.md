@@ -1,4 +1,4 @@
-com.jatecnologia.db
+com.jatecnologia.database
 ===================
 
 Projects abaout Data Bases
