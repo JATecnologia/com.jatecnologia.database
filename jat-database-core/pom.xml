@@ -1,0 +1,17 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+ 	<modelVersion>4.0.0</modelVersion>
+  	<parent>
+		<groupId>com.jatecnologia.database</groupId>    
+		<artifactId>jat-database</artifactId>
+    		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../pom.xml</relativePath>    
+	</parent>	
+	<artifactId>jat-database-core</artifactId>
+  	<name>jat-database-core</name>
+  	<url>www.jatecnologia.com/modules/data-base</url>
+  	<organization>
+  		<name>J. A. Tecnologia</name>
+  		<url>www.jatecnologia.com</url>
+  	</organization>
+  	
+</project>
