@@ -13,4 +13,10 @@
   		<name>J. A. Tecnologia</name>
   		<url>www.jatecnologia.com</url>
   	</organization>
+  	<dependencies>
+  		<dependency>
+			<groupId>org.mongodb</groupId>
+			<artifactId>mongo-java-driver</artifactId>		
+		</dependency>            
+  	</dependencies>
 </project>
